@@ -13,3 +13,5 @@ C:\Users\esrat\Dersler\C#EgitimKampi\CSharpEgitimKampi301\CSharpEgitimKampi301.D
 C:\Users\esrat\Dersler\C#EgitimKampi\CSharpEgitimKampi301\CSharpEgitimKampi301.DataAccessLayer\obj\Debug\CSharpEg.01C77B6F.Up2Date
 C:\Users\esrat\Dersler\C#EgitimKampi\CSharpEgitimKampi301\CSharpEgitimKampi301.DataAccessLayer\obj\Debug\CSharpEgitimKampi301.DataAccessLayer.dll
 C:\Users\esrat\Dersler\C#EgitimKampi\CSharpEgitimKampi301\CSharpEgitimKampi301.DataAccessLayer\obj\Debug\CSharpEgitimKampi301.DataAccessLayer.pdb
+C:\Users\esrat\Dersler\C#EgitimKampi\CSharpEgitimKampi301\CSharpEgitimKampi301.DataAccessLayer\obj\Debug\CSharpEgitimKampi301.DataAccessLayer.Migrations.mig1.resources
+C:\Users\esrat\Dersler\C#EgitimKampi\CSharpEgitimKampi301\CSharpEgitimKampi301.DataAccessLayer\obj\Debug\CSharpEgitimKampi301.DataAccessLayer.csproj.GenerateResource.cache

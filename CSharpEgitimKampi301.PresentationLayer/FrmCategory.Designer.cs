@@ -47,7 +47,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(32, 54);
+            this.label1.Location = new System.Drawing.Point(82, 47);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(63, 13);
             this.label1.TabIndex = 0;
@@ -55,39 +55,40 @@
             // 
             // txtCategoryId
             // 
-            this.txtCategoryId.Location = new System.Drawing.Point(101, 51);
+            this.txtCategoryId.Location = new System.Drawing.Point(147, 44);
             this.txtCategoryId.Name = "txtCategoryId";
-            this.txtCategoryId.Size = new System.Drawing.Size(176, 20);
+            this.txtCategoryId.Size = new System.Drawing.Size(133, 20);
             this.txtCategoryId.TabIndex = 1;
             // 
             // btnList
             // 
-            this.btnList.Location = new System.Drawing.Point(101, 127);
+            this.btnList.Location = new System.Drawing.Point(147, 129);
             this.btnList.Name = "btnList";
-            this.btnList.Size = new System.Drawing.Size(85, 33);
+            this.btnList.Size = new System.Drawing.Size(124, 35);
             this.btnList.TabIndex = 2;
             this.btnList.Text = "Listele";
             this.btnList.UseVisualStyleBackColor = true;
+            this.btnList.Click += new System.EventHandler(this.btnList_Click);
             // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(283, 16);
+            this.dataGridView1.Location = new System.Drawing.Point(311, 44);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(765, 256);
+            this.dataGridView1.Size = new System.Drawing.Size(440, 284);
             this.dataGridView1.TabIndex = 3;
             // 
             // txtCategoryName
             // 
-            this.txtCategoryName.Location = new System.Drawing.Point(101, 77);
+            this.txtCategoryName.Location = new System.Drawing.Point(147, 70);
             this.txtCategoryName.Name = "txtCategoryName";
-            this.txtCategoryName.Size = new System.Drawing.Size(176, 20);
+            this.txtCategoryName.Size = new System.Drawing.Size(133, 20);
             this.txtCategoryName.TabIndex = 5;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(28, 80);
+            this.label2.Location = new System.Drawing.Point(78, 73);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(67, 13);
             this.label2.TabIndex = 4;
@@ -96,16 +97,16 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(6, 106);
+            this.label3.Location = new System.Drawing.Point(62, 99);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(89, 13);
+            this.label3.Size = new System.Drawing.Size(83, 13);
             this.label3.TabIndex = 6;
-            this.label3.Text = "Kategori Durumu:";
+            this.label3.Text = "Kategori Durum:";
             // 
             // rdbActive
             // 
             this.rdbActive.AutoSize = true;
-            this.rdbActive.Location = new System.Drawing.Point(101, 104);
+            this.rdbActive.Location = new System.Drawing.Point(162, 97);
             this.rdbActive.Name = "rdbActive";
             this.rdbActive.Size = new System.Drawing.Size(46, 17);
             this.rdbActive.TabIndex = 7;
@@ -116,7 +117,7 @@
             // rdbPassive
             // 
             this.rdbPassive.AutoSize = true;
-            this.rdbPassive.Location = new System.Drawing.Point(153, 104);
+            this.rdbPassive.Location = new System.Drawing.Point(223, 97);
             this.rdbPassive.Name = "rdbPassive";
             this.rdbPassive.Size = new System.Drawing.Size(48, 17);
             this.rdbPassive.TabIndex = 8;
@@ -126,45 +127,49 @@
             // 
             // btnAdd
             // 
-            this.btnAdd.Location = new System.Drawing.Point(192, 127);
+            this.btnAdd.Location = new System.Drawing.Point(147, 170);
             this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(85, 33);
+            this.btnAdd.Size = new System.Drawing.Size(124, 35);
             this.btnAdd.TabIndex = 9;
             this.btnAdd.Text = "Ekle";
             this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // btnDelete
             // 
-            this.btnDelete.Location = new System.Drawing.Point(101, 166);
+            this.btnDelete.Location = new System.Drawing.Point(147, 211);
             this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(85, 33);
+            this.btnDelete.Size = new System.Drawing.Size(124, 35);
             this.btnDelete.TabIndex = 10;
             this.btnDelete.Text = "Sil";
             this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // btnUpdate
             // 
-            this.btnUpdate.Location = new System.Drawing.Point(192, 166);
+            this.btnUpdate.Location = new System.Drawing.Point(147, 252);
             this.btnUpdate.Name = "btnUpdate";
-            this.btnUpdate.Size = new System.Drawing.Size(85, 33);
+            this.btnUpdate.Size = new System.Drawing.Size(124, 35);
             this.btnUpdate.TabIndex = 11;
             this.btnUpdate.Text = "Güncelle";
             this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // btnGetById
             // 
-            this.btnGetById.Location = new System.Drawing.Point(131, 205);
+            this.btnGetById.Location = new System.Drawing.Point(147, 293);
             this.btnGetById.Name = "btnGetById";
-            this.btnGetById.Size = new System.Drawing.Size(122, 33);
+            this.btnGetById.Size = new System.Drawing.Size(124, 35);
             this.btnGetById.TabIndex = 12;
             this.btnGetById.Text = "ID\'ye Göre Getir";
             this.btnGetById.UseVisualStyleBackColor = true;
+            this.btnGetById.Click += new System.EventHandler(this.btnGetById_Click);
             // 
             // FrmCategory
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1060, 285);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.btnGetById);
             this.Controls.Add(this.btnUpdate);
             this.Controls.Add(this.btnDelete);
@@ -203,4 +208,3 @@
         private System.Windows.Forms.Button btnGetById;
     }
 }
-
