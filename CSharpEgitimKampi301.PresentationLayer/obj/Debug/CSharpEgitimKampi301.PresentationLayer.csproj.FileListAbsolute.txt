@@ -21,3 +21,4 @@ C:\Users\esrat\Dersler\C#EgitimKampi\CSharpEgitimKampi301\CSharpEgitimKampi301.P
 C:\Users\esrat\Dersler\C#EgitimKampi\CSharpEgitimKampi301\CSharpEgitimKampi301.PresentationLayer\obj\Debug\CSharpEg.3E4FD578.Up2Date
 C:\Users\esrat\Dersler\C#EgitimKampi\CSharpEgitimKampi301\CSharpEgitimKampi301.PresentationLayer\obj\Debug\CSharpEgitimKampi301.PresentationLayer.exe
 C:\Users\esrat\Dersler\C#EgitimKampi\CSharpEgitimKampi301\CSharpEgitimKampi301.PresentationLayer\obj\Debug\CSharpEgitimKampi301.PresentationLayer.pdb
+C:\Users\esrat\Dersler\C#EgitimKampi\CSharpEgitimKampi301\CSharpEgitimKampi301.PresentationLayer\obj\Debug\CSharpEgitimKampi301.PresentationLayer.FrmProduct.resources
